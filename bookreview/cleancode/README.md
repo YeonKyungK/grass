@@ -23,3 +23,9 @@ description: CleanCode 책 리뷰
 15. JUnit 들어다보기
 16. SerialDate 리팩
 
+{% page-ref page="1.md" %}
+
+{% page-ref page="2.md" %}
+
+
+
