@@ -61,7 +61,7 @@
 #### 수정 코드 변경
 
 1. 회원 수정용 SQL 수정
-2. `MemberDAO.update()` 코드 수정해서 연락처도 업데이
+2. `MemberDAO.update()` 코드 수정해서 연락처도 업데이트 
 
 #### 연관된 객체 추가
 
@@ -161,10 +161,10 @@ JPA 는 상속과 관련된 패러다임의 불일치 문제를 개발자 대신
 개발자는 마치 자바 컬렉션에 객체를 저장하듯이 JPA 에게 객체를 저장하면 된다.
 
 * 저장 기능
-  * `jpa.persist(자식객);`
+  * `jpa.persist(자식객체);`
   * JPA 가 부모와 자식 두 테이블에 나눠서 저장한다.
 * 조회 기능
-  * `jpa.find(자.class, memberId);`
+  * `jpa.find(자식.class, memberId);`
   * 자식과 부모 테이블을 조인해서 필요한 데이터를 조회하고 반환한다.
 
 ### 연관관계
@@ -220,7 +220,7 @@ JPA 는 member 와 team 의 관계를 설정하고 회원 객체를 저장하면
 member.setTeam(team);
 jpa.persist(member);
 
-// 조
+// 조회 
 Member member = jpa.find(Member.class, memberId);
 Team team = member.getTeam();
 ```
@@ -302,7 +302,7 @@ JPA 는 패러다임의 불일치 문제를 해결해주고 정교한 객체 모
 ### ORM
 
 * Object-Relational Mapping
-* 객체와 관계형 데이터 베이스를 매
+* 객체와 관계형 데이터 베이스를 맵핑 
 
 ![jpa &#xAC00; &#xC54C;&#xC544;&#xC11C; sql &#xAD6C;&#xBB38;&#xC744; &#xB9CC;&#xB4E4;&#xACE0; &#xC788;&#xB2E4;!](../../.gitbook/assets/orm.png)
 
