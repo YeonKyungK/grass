@@ -6,6 +6,7 @@
 
 * [JPA 프로그래밍](bookreview/jpa/README.md)
   * [1장 JPA 소개](bookreview/jpa/1-jpa.md)
+  * [2장 JPA 시작](bookreview/jpa/2-jpa.md)
 * [CleanCode](bookreview/cleancode/README.md)
   * [1장 깨끗한 코드](bookreview/cleancode/1.md)
   * [2장 의미 있는 이름](bookreview/cleancode/2.md)
