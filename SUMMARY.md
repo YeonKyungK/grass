@@ -14,4 +14,5 @@
   * [4장 주석](bookreview/cleancode/4.md)
   * [5장 형식 맞추기](bookreview/cleancode/5.md)
   * [6장 객체와 자료구조](bookreview/cleancode/6.md)
+  * [7장 오류 처리](bookreview/cleancode/7.md)
 
