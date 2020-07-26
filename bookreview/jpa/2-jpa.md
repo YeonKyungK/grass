@@ -11,7 +11,7 @@
 ### 객체 매핑 시작 
 
 ```sql
-// 데이터 베이스 테이블 생
+// 데이터 베이스 테이블 생성 
 CREATE TABLE MEMBER (
     ID VARCHAR(255) NOT NULL,
     NAME VARCHAR(255),
@@ -21,7 +21,7 @@ CREATE TABLE MEMBER (
 ```
 
 ```java
-// 회원 클래, 맵핑 어노테이션 추
+// 회원 클래스 , 맵핑 어노테이션 추가 
 package japbook.start;
 
 import javax.persistence.*;
